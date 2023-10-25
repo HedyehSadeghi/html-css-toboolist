@@ -4,6 +4,15 @@
     box-sizing: border-box;
 }
 
+li{
+    padding: 15px 0 15px 0;
+}
+
+.titles{
+    font-size: larger;
+    font-weight: bold;
+}
+
 .bg-white{
     background-color: white;
 }
@@ -13,14 +22,13 @@
 }
 
 .bg-blue{
-    background-color: rgba(10, 187, 226, 0.514);
+    background-color: rgba(23, 195, 233, 0.594);
 }
 
 .box1{
     width:80px;
     height: 30px;
     display: inline-block;
-    background-color: rgb(62, 165, 244);
     border-radius: 10%;
     margin: 5px 0 5px 50px;
     text-align: center;
@@ -41,18 +49,48 @@
     line-height: 30px;
 }
 
-.m10{
-    margin-left:20px;
-    margin-top:20px;
+.m5{
+    margin:20px 0 20px 50px;
 }
 
 .m20{
     margin:30px 200px 0 200px;
+    border-radius: 2%;
+}
+
+.costum-icon-list{
+    list-style: none ;
+}
+
+.costum-icon-list li::before{
+    content: "";
+    display: inline-block;
+}
+
+.icongreen{
+    color: green;
+    border-style: ridge;
+    border-width: 1px;
+    border-color: green;
+    border-radius: 50%;
+    text-align: center;
+    padding:2px;
+    margin: 5px 10px 5px 0;
+
+
+}
+
+.iconred{
+    color: red;
+    border-style: ridge;
+    border-width: 1px;
+    border-color: red;
+    border-radius: 50%;
+    text-align: center;
+
 }
 
 #logo-toboo{
     width:200px;
     padding: 10px 0 10px 15px;
-    
-    
 }
