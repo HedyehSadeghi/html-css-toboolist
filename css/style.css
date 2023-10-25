@@ -1,0 +1,58 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.bg-white{
+    background-color: white;
+}
+
+.bg-grey{
+    background-color: rgb(227, 223, 223);
+}
+
+.bg-blue{
+    background-color: rgba(10, 187, 226, 0.514);
+}
+
+.box1{
+    width:80px;
+    height: 30px;
+    display: inline-block;
+    background-color: rgb(62, 165, 244);
+    border-radius: 10%;
+    margin: 5px 0 5px 50px;
+    text-align: center;
+    line-height: 30px;
+
+}
+
+.box2{
+    width:100px;
+    height:30px;
+    display: inline-block;
+    border-color: rgb(170, 169, 169);
+    border-style: ridge;
+    border-width: 1px;
+    border-radius: 10%;
+    margin: 5px 0 5px 5px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.m10{
+    margin-left:20px;
+    margin-top:20px;
+}
+
+.m20{
+    margin:30px 200px 0 200px;
+}
+
+#logo-toboo{
+    width:200px;
+    padding: 10px 0 10px 15px;
+    
+    
+}
