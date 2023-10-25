@@ -5,9 +5,12 @@
 }
 
 li{
-    padding: 15px 0 15px 0;
+    padding: 10px 0 10px 0;
 }
 
+.font{
+    font-family: 'Inter', sans-serif;
+}
 .titles{
     font-size: larger;
     font-weight: bold;
@@ -30,7 +33,7 @@ li{
     height: 30px;
     display: inline-block;
     border-radius: 10%;
-    margin: 5px 0 5px 50px;
+    margin: 5px 0 5px 60px;
     text-align: center;
     line-height: 30px;
 
@@ -50,12 +53,12 @@ li{
 }
 
 .m5{
-    margin:20px 0 20px 50px;
+    margin:20px 0 20px 60px;
 }
 
 .m20{
     margin:30px 200px 0 200px;
-    border-radius: 2%;
+    border-radius: 1%;
 }
 
 .costum-icon-list{
@@ -74,10 +77,9 @@ li{
     border-color: green;
     border-radius: 50%;
     text-align: center;
-    padding:2px;
     margin: 5px 10px 5px 0;
-
-
+    font-size: small;
+    padding:2px 3px 2px 3px;
 }
 
 .iconred{
@@ -87,10 +89,49 @@ li{
     border-color: red;
     border-radius: 50%;
     text-align: center;
+    margin: 5px 10px 5px 0;
+    font-size: small;
+    padding:2px 1px 2px 1px;
+
+}
+.icons{
+    padding:1px 3px 1px 3px;
+    height: 20px;
+    display: inline-block;
+    border-radius: 27%;
+    margin: 5px 0 5px 5px;
+    text-align: center;
+    line-height: 20px;
+    color:white;
+    font-size: x-small;
 
 }
 
+.editorial-icon{
+    background-color: rgb(31, 167, 221);
+    
+}
+
+.q1-icon{
+    background-color: rgb(132, 31, 221);
+}
+
+.recruite-icon{
+    background-color: rgb(23, 228, 173);
+}
+
+.mobile-icon{
+    background-color: rgb(241, 113, 15);
+}
+
+.web-icon{
+    background-color: rgb(197, 21, 132);
+}
+
+.sales-icon{
+    background-color: rgb(28, 179, 66);
+}
 #logo-toboo{
-    width:200px;
-    padding: 10px 0 10px 15px;
+    width:300px;
+    padding: 10px 0 10px 25px;
 }
